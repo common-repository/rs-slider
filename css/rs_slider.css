@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+#rs_akindil_galeri {
+	position: relative;
+	left: 11px;
+	top: 9px;
+	width: 880px;
+	height: 340px;
+	z-index: 1;
+	background-color: #266994;
+	color: #FFF;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom:20px;
+}
+#rs_akindil_galeri_2 {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 960px;
+	height: 40px;
+	z-index: 6;
+}
+.resim {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 880px;
+	height: 340px;
+	z-index: 5;
+	display: none;
+	overflow:hidden;
+}
